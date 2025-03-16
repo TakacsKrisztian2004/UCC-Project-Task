@@ -32,7 +32,7 @@ const NavBar = () => {
           </Link>
           {isAdmin && (
             <Link to="/admin" className="admin-link">
-              Register
+              Register Users
             </Link>
           )}
         </>

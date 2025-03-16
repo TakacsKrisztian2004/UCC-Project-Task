@@ -1,0 +1,54 @@
+#modify-report-page {
+    margin-top: 58px;
+    height: calc(100vh - 116px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modify-report {
+  border: #fff 2px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 110px;
+  padding-right: 110px;
+  width: 50%;
+}
+
+#modify-report h1 {
+  color: #fff;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#modify-report-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+    #modify-report {
+        width: 60%;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+}
+
+@media screen and (max-width: 1200px) {
+    #modify-report {
+      width: 70%;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #modify-report {
+        width: 80%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+}

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import "../Styles/HomeStyle.css";
-import AuthService from "../Components/AuthService";
+import { Link, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import axios from "axios";
+import "../Styles/HomeStyle.css";
+import AuthService from "../Components/AuthService";
 
 const HomePage = () => {
   const [username, setUsername] = useState("");
@@ -95,6 +95,9 @@ const HomePage = () => {
             </div>
           </div>
           {error && <p style={{ color: "red" }}>{error}</p>}
+          <Link id="forgot-password-link" to="/forgot-password">
+            Forgot password?
+          </Link>
           <button id="login-button" type="submit">
             Login
           </button>

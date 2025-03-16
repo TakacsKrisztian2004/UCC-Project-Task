@@ -86,3 +86,12 @@ label {
 #login-button:hover {
   background-color: #2e2e2e;
 }
+
+#forgot-password-link {
+  text-decoration: none;
+  color: #ff7e7e;
+}
+
+#forgot-password-link:hover {
+  color: #ff4343;
+}

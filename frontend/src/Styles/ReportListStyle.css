@@ -35,13 +35,36 @@ span {
   backdrop-filter: blur(10px);
   border: #fff 2px solid;
   border-radius: 20px;
-  height: 295px;
+  height: 315px;
 }
 
 @media screen and (max-width: 1400px) {
   .card {
-    height: 320px;
+    height: 360px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 265px;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .card {
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .card {
+    height: 355px;
+  }
+}
+
+.card-resolved {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card-subtitle {
@@ -241,9 +264,26 @@ span {
   padding: 8px 16px;
   bottom: -1px;
   width: 34.5%;
-  right: 129px;
 }
 
 .btn-orange:hover {
   background-color: darkorange;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn-orange {
+    font-size: 13.5px;
+  }
+
+  .resolve-button {
+    font-size: 13.5px;
+  }
+
+  .modify-button {
+    font-size: 13.5px;
+  }
+
+  .delete-button {
+    font-size: 13.5px;
+  }
 }

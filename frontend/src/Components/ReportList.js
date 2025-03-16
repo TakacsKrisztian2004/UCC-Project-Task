@@ -194,23 +194,24 @@ const ReportList = () => {
                       ? `${report.description.substring(0, 100)}...`
                       : report.description}
                   </p>
-                  {report.description.length > 100 && (
-                    <button
-                      id="show-more"
-                      onClick={() => handleShowMore(report)}
-                    >
-                      Show More
-                    </button>
-                  )}
-                  <p className="card-text">
-                    <strong>Status:</strong>{" "}
-                    {report.resolved ? (
-                      <span className="text-resolved">Resolved</span>
-                    ) : (
-                      <span className="text-unresolved">Unresolved</span>
+                  <div className="card-resolved">
+                    <p className="card-text">
+                      <strong>Status:</strong>{" "}
+                      {report.resolved ? (
+                        <span className="text-resolved">Resolved</span>
+                      ) : (
+                        <span className="text-unresolved">Unresolved</span>
+                      )}
+                    </p>
+                    {report.description.length > 100 && (
+                      <button
+                        id="show-more"
+                        onClick={() => handleShowMore(report)}
+                      >
+                        Show More
+                      </button>
                     )}
-                  </p>
-
+                  </div>
                   <button
                     className={`resolve-button ${
                       report.resolved ? "btn-orange" : "btn-green"

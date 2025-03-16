@@ -10,6 +10,7 @@ footer {
     align-items: center;
     border-top: aqua 2px solid;
     z-index: 9999;
+    text-align: center;
 }
 
 footer p {

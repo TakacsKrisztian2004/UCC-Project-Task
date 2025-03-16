@@ -3,16 +3,10 @@
   "WorkspaceRootPath": "H:\\UCC Project\\backend\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D839F36-353D-454A-BB70-AD279C2DDF6A}|backend.csproj|h:\\ucc project\\backend\\backend\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D839F36-353D-454A-BB70-AD279C2DDF6A}|backend.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA40C78F-328A-4C6E-8CED-9E952A437484}|..\\authentication\\authentication.csproj|h:\\ucc project\\backend\\authentication\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D839F36-353D-454A-BB70-AD279C2DDF6A}|backend.csproj|h:\\ucc project\\backend\\backend\\repositories\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D839F36-353D-454A-BB70-AD279C2DDF6A}|backend.csproj|solutionrelative:repositories\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D839F36-353D-454A-BB70-AD279C2DDF6A}|backend.csproj|h:\\ucc project\\backend\\backend\\repositories\\interfaces\\ireportinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D839F36-353D-454A-BB70-AD279C2DDF6A}|backend.csproj|solutionrelative:repositories\\interfaces\\ireportinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA40C78F-328A-4C6E-8CED-9E952A437484}|..\\authentication\\authentication.csproj|h:\\ucc project\\backend\\authentication\\service\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "H:\\UCC Project\\backend\\backend\\Controllers\\ReportController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
-              "ToolTip": "H:\\UCC Project\\backend\\backend\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "Controllers\\ReportController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAawFcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T21:53:13.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IReportInterface.cs",
-              "DocumentMoniker": "H:\\UCC Project\\backend\\backend\\Repositories\\Interfaces\\IReportInterface.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IReportInterface.cs",
-              "ToolTip": "H:\\UCC Project\\backend\\backend\\Repositories\\Interfaces\\IReportInterface.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IReportInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T21:53:05.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "H:\\UCC Project\\backend\\backend\\Repositories\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "Repositories\\Services\\ReportService.cs",
-              "ToolTip": "H:\\UCC Project\\backend\\backend\\Repositories\\Services\\ReportService.cs",
-              "RelativeToolTip": "Repositories\\Services\\ReportService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE0AAAAlAAAAAAAAAA==",
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "H:\\UCC Project\\backend\\authentication\\Service\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "..\\authentication\\Service\\JwtTokenGenerator.cs",
+              "ToolTip": "H:\\UCC Project\\backend\\authentication\\Service\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "..\\authentication\\Service\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T15:45:48.121Z",
+              "WhenOpened": "2025-03-16T17:07:07.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "H:\\UCC Project\\backend\\authentication\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\authentication\\Service\\AuthService.cs",
+              "ToolTip": "H:\\UCC Project\\backend\\authentication\\Service\\AuthService.cs",
+              "RelativeToolTip": "..\\authentication\\Service\\AuthService.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAIwBQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:50:31.087Z",
               "EditorCaption": ""
             }
           ]

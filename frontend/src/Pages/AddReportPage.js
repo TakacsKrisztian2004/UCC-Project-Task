@@ -1,9 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../Styles/AddReportStyle.css";
 
 const AddReportPage = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!Cookies.get("token")) {
+      navigate("/");
+    }
+  }, []);
+
   const [formData, setFormData] = useState({
     title: "",
     description: "",
@@ -62,6 +71,8 @@ const AddReportPage = () => {
               className="add-report-input"
               type="text"
               name="title"
+              maxLength={35}
+              placeholder="Max 35 characters."
               value={formData.title}
               onChange={handleChange}
               required
@@ -84,12 +95,16 @@ const AddReportPage = () => {
               className="add-report-input"
               type="text"
               name="customer"
+              maxLength={45}
+              placeholder="Max 45 characters."
               value={formData.customer}
               onChange={handleChange}
               required
             />
           </div>
-          <button id="add-report-button" type="submit">Submit Report</button>
+          <button id="add-report-button" type="submit">
+            Submit Report
+          </button>
         </form>
       </div>
     </div>

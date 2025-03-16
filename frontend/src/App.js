@@ -10,6 +10,7 @@ import ReportListPage from "./Pages/ReportListPage";
 import ForgotPasswordPage from "./Pages/ForgotPasswordPage";
 import AddReportPage from "./Pages/AddReportPage";
 import ModifyReportPage from "./Pages/ModifyReportPage";
+import ResetPasswordPage from "./Pages/ResetPasswordPage";
 
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
@@ -32,6 +33,7 @@ function App() {
           <Route path="/admin" element={<AdminPage />} />
           <Route path="/reports" element={<ReportListPage />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+          <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
           <Route path="/add-report" element={<AddReportPage />} />
           <Route path="/modify-report/:id" element={<ModifyReportPage />} />
         </Routes>

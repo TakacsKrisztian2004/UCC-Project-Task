@@ -1,6 +1,6 @@
 import React from "react";
 import { Modal, Button } from "react-bootstrap";
-import "../Styles/PopupWindow.css";
+import "../Styles/PopupWindowStyle.css";
 
 const PopupWindow = ({ show, onClose, report }) => {
   if (!report) return null;

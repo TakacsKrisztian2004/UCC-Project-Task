@@ -201,7 +201,9 @@ namespace authentication.Service
                 }
 
                 string resetToken = await userManager.GeneratePasswordResetTokenAsync(user);
-                bodyBuilder.HtmlBody = bodyBuilder.HtmlBody.Replace("{resetToken}", resetToken);
+                string encodedToken = Uri.EscapeDataString(resetToken);
+
+                bodyBuilder.HtmlBody = bodyBuilder.HtmlBody.Replace("{resetToken}", encodedToken);
 
                 email.Body = bodyBuilder.ToMessageBody();
 
